@@ -1,0 +1,30 @@
+name: seven_roses
+description: SevenRoses, tienda web y aplicación administrativa Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  cloud_firestore: ^6.1.2
+  google_sign_in: ^7.2.0
+  image_picker: ^1.1.2          # Cámara (celular) y galería
+  mobile_scanner: ^7.1.3        # Escáner de códigos de barras móvil y web
+  flutter_map: ^8.1.1            # Mapas libres con OpenStreetMap
+  latlong2: ^0.9.1
+  web: ^1.1.0                   # Webcam en el navegador (API moderna)
+  aws_rekognition_api: ^2.0.0   # Cliente de AWS Rekognition para Dart
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  network_image_mock: ^2.1.1
+
+flutter:
+  uses-material-design: true
